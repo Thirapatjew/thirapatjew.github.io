@@ -1,6 +1,228 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+<style>
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            margin: 0;
+
+            padding: 0;
+
+            background-color: #f4f4f9;
+
+            color: #333;
+
+        }
+
+        header {
+
+            background-color: #4CAF50;
+
+            color: white;
+
+            padding: 1rem 0;
+
+            text-align: center;
+
+        }
+
+        nav {
+
+            text-align: center;
+
+            margin: 1rem 0;
+
+        }
+
+        nav a {
+
+            margin: 0 15px;
+
+            text-decoration: none;
+
+            color: #4CAF50;
+
+            font-weight: bold;
+
+        }
+
+        section {
+
+            padding: 2rem;
+
+            max-width: 900px;
+
+            margin: auto;
+
+        }
+
+        .project {
+
+            margin-bottom: 2rem;
+
+        }
+
+        footer {
+
+            text-align: center;
+
+            padding: 1rem 0;
+
+            background-color: #333;
+
+            color: white;
+
+            position: relative;
+
+            bottom: 0;
+
+            width: 100%;
+
+        }
+
+        .social-links img {
+
+            width: 30px;
+
+            height: 30px;
+
+        }
+
+        .skills {
+
+            display: flex;
+
+            gap: 1rem;
+
+            flex-wrap: wrap;
+
+            justify-content: center;
+
+        }
+
+        .skill {
+
+            text-align: center;
+
+        }
+
+        .skill img {
+
+            width: 50px;
+
+            height: 50px;
+
+        }
+
+        .skill p {
+
+            margin-top: 0.5rem;
+
+            font-size: 1rem;
+
+            color: #333;
+
+        }
+
+        .project img {
+
+            width: 300px;
+
+            height: 300px;
+
+            object-fit: cover;
+
+        }
+</style>
+</head>
+<body>
  
-  <body>
-<h1>I am Thirapat</h1>
+<header>
+<h1>Welcome to My Portfolio</h1>
+</header>
+ 
+<nav>
+<a href="#about">About Me</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+ 
+<section id="about">
+<h2>About Me</h2>
+<p>Hello, my name is Thirapat Semachim, nickname Jew. I like black and white and love animals. Thank you.</p>
+<img src="https://cdn.discordapp.com/attachments/1316078220621119498/1316078290955403374/IMG_1361.jpg?ex=6759bcec&is=67586b6c&hm=3b1f973149ca1d6b8c7a5a845c1d4e6fd26890ff10902f45c6cff97558423649&" alt="img" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover;">
+</section>
+ 
+<section id="projects">
+<h2>Projects</h2>
+<div class="project">
+<h3>Design a website to sell pet food</h3>
+<p>Design various web pages related to selling pet food.</p>
+<img src="https://cdn.discordapp.com/attachments/1316078220621119498/1316082935727657070/image.png?ex=6759c13f&is=67586fbf&hm=104c8b0096d4c59347d5359c2f408c423b7608e65d210507350d355baf9b3a61&" alt="pp">
+</div>
+<div class="project">
+<h3>Design a web page introducing games</h3>
+<p>Design various pages of the website about introducing games.</p>
+<img src="https://cdn.discordapp.com/attachments/1316078220621119498/1316083411898859620/image.png?ex=6759c1b1&is=67587031&hm=41697c899c0c19abba6d6af9936ced009cd13b6647dffdee930f9a163763225a&" alt="p">
+</div>
+<h3>My Skills</h3>
+<div class="skills">
+<div class="skill">
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python">
+<p>Python</p>
+</div>
+<div class="skill">
+<img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" alt="Java">
+<p>Java</p>
+</div>
+<div class="skill">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML">
+<p>HTML</p>
+</div>
+<div class="skill">
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS">
+<p>CSS</p>
+</div>
+<div class="skill">
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Figma">
+<p>Figma</p>
+</div>
+<div class="skill">
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg" alt="Vue">
+<p>Vue</p>
+</div>
+<div class="skill">
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" alt="Tailwind CSS">
+<p>Tailwind</p>
+</div>
+</div>
+</section>
+ 
+<section id="contact">
+<h2>Contact</h2>
+<p>Feel free to reach out to me at <a href="mailto:66022691@up.ac.th">66022691@up.ac.th</a>.</p>
+<div class="social-links">
+<a href="https://www.facebook.com/thirapat.semachim?locale=th_TH" target="_blank">
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Facebook_icon.svg" alt="Facebook">
+</a>
+<a href="https://www.instagram.com/mint.fonghttps://www.instagram.com/jeww_200x/" target="_blank">
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+</a>
+<a href="https://github.com/Thirapatjew" target="_blank">
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub">
+</a>
+</div>
+</section>
+ 
+<footer>
+<p>&copy; 2024 Thirapat Semachim . All rights reserved.❤️❤️</p>
+</footer>
+ 
 </body>
 </html>
